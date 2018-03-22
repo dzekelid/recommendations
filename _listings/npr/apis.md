@@ -30,7 +30,7 @@ apis:
   tags: Recommendations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-organizations-orgid-recommendations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-promo-recommendations-get.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
