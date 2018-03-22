@@ -26,7 +26,7 @@ apis:
   tags: Recommendations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/subscriptions-subscriptionid-providers-microsoft-advisor-recommendations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/resourceuri-providers-microsoft-advisor-recommendations-recommendationid-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/advisor/
