@@ -17,8 +17,8 @@ tags:
 - Getting Started
 - Federal Government
 - Broadcasting
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -30,7 +30,7 @@ apis:
   tags: Recommendations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-search-recommendations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-aggregation-aggid-recommendations-get.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
