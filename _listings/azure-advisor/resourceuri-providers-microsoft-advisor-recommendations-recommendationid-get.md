@@ -1,11 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Azure Advisor API
-  description: Azure Advisor is a personalized recommendation engine that helps you
-    follow Azure best practices. It analyzes your Azure resource configuration and
-    usage telemetry, then provides recommendations that can reduce costs and improve
-    the performance, security, and reliability of your applications.
+  title: Azure Advisor API Get Recommendations
+  description: Obtains details of a cached recommendation.
   version: "2017-04-19"
 host: management.azure.com
 basePath: /
