@@ -27,19 +27,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/resourceuri-providers-microsoft-advisor-recommendations-recommendationid-get.md
-- name: Azure Advisor API Get Recommendation
-  description: Retrieves the status of the recommendation computation or generation
-    process. Invoke this API after calling the generation recommendation. The URI
-    of this API is returned in the Location field of the response header.
+- name: Azure Advisor API List Recommendations
+  description: Obtains cached recommendations for a subscription. The recommendations
+    are generated or computed by invoking generateRecommendations.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/improve-what-matters.png
   humanURL: https://azure.microsoft.com/en-us/services/advisor/
   baseURL: http:://management.azure.com//
   tags: Recommendations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/subscriptions-subscriptionid-providers-microsoft-advisor-generaterecommendations-operationid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/subscriptions-subscriptionid-providers-microsoft-advisor-recommendations-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/subscriptions-subscriptionid-providers-microsoft-advisor-generaterecommendations-operationid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/subscriptions-subscriptionid-providers-microsoft-advisor-recommendations-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/advisor/
