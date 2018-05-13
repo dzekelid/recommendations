@@ -31,18 +31,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-search-recommendations-get.md
-- name: NPR Get a list of recommendations from a category of content from an organization
-  description: This endpoint provides a list of recommendations from a category of
-    content from  an organization.
+- name: NPR Get a variety of details about an organization including various lists
+    of recent audio items
+  description: This endpoint provides a variety of details about an organization including
+    various lists of recent audio items.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
   humanURL: http://www.npr.org
   baseURL: https://api.npr.org//
   tags: Recommendations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-organizations-orgid-categories-category-recommendations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-organizations-orgid-recommendations-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-organizations-orgid-categories-category-recommendations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-organizations-orgid-recommendations-get-postman.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
