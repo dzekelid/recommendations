@@ -27,19 +27,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/resourceuri-providers-microsoft-advisor-recommendations-recommendationid-get.md
-- name: Azure Advisor API Generate Recommendations
-  description: Initiates the recommendation generation or computation process for
-    a subscription. This operation is asynchronous. The generated recommendations
-    are stored in a cache in the Advisor service.
+- name: Azure Advisor API Get Recommendation
+  description: Retrieves the status of the recommendation computation or generation
+    process. Invoke this API after calling the generation recommendation. The URI
+    of this API is returned in the Location field of the response header.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/improve-what-matters.png
   humanURL: https://azure.microsoft.com/en-us/services/advisor/
   baseURL: http:://management.azure.com//
   tags: Recommendations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/subscriptions-subscriptionid-providers-microsoft-advisor-generaterecommendations-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/subscriptions-subscriptionid-providers-microsoft-advisor-generaterecommendations-operationid-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/subscriptions-subscriptionid-providers-microsoft-advisor-generaterecommendations-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/subscriptions-subscriptionid-providers-microsoft-advisor-generaterecommendations-operationid-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/advisor/
