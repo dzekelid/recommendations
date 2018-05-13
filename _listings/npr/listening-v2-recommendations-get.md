@@ -1,13 +1,13 @@
 ---
 swagger: "2.0"
 info:
-  title: NPR One API Reference
-  description: NPR One is a smart application that brings the best of NPR and Member
-    Station programming, newscasts, podcasts, and stories together to create a new
-    experience for listening. It provides an editor-curated and localized mobile listening
-    experience based on the content the listener chooses, likes, shares, and enjoys.
-    The API provides all of the content and customization in a simple, structured
-    way that is easy for applicationdevelopers to implement.
+  title: NPR Get a list of media for the logged-in user from NPR's recommendation
+    engine
+  description: |-
+    This endpoint returns a list of audio recommendations. It is designed to be used for an initial list of recommendations, and then `GET /listening/v2/ratings?recommend=true` should be used for subsequent requests for recommendations.
+
+    A fully-populated link to the ratings endpoint is returned with each individual recommendation and is located in the AudioItemDocument under the `links['recommendations']` object. The query parameters in this link should not be modified.
+    Be sure to copy and send back the entire ratings object (RatingData), as new fields may be added to it in the future.
   termsOfService: http://dev.npr.org/develop/terms-of-use
   contact:
     name: NPR One Enterprise Team
