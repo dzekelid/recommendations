@@ -31,19 +31,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-search-recommendations-get.md
-- name: NPR Get a variety of details about an organization including various lists
-    of recent audio items
-  description: This endpoint provides a variety of details about an organization including
-    various lists of recent audio items.
+- name: NPR Retrieve the most recent promo audio heard by the logged-in user
+  description: Gets the most recently played promo for which the user has neither
+    tapped through the promo or listened to the target story.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
   humanURL: http://www.npr.org
   baseURL: https://api.npr.org//
   tags: Recommendations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-organizations-orgid-recommendations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-promo-recommendations-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-organizations-orgid-recommendations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-promo-recommendations-get-postman.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
