@@ -31,21 +31,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-search-recommendations-get.md
-- name: NPR Get a list of media for the logged-in user from NPR's recommendation engine
-  description: |-
-    This endpoint returns a list of audio recommendations. It is designed to be used for an initial list of recommendations, and then `GET /listening/v2/ratings?recommend=true` should be used for subsequent requests for recommendations.
-
-    A fully-populated link to the ratings endpoint is returned with each individual recommendation and is located in the AudioItemDocument under the `links['recommendations']` object. The query parameters in this link should not be modified.
-    Be sure to copy and send back the entire ratings object (RatingData), as new fields may be added to it in the future.
+- name: NPR Get a list of recent audio and aggregation items associated with search
+    terms
+  description: In the schema shown below, SearchItemDocument is not an actual type
+    of returned object; the object returned by a search will be either an AggregationAudioItemListDocument
+    or an AudioItemDocument.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
   humanURL: http://www.npr.org
   baseURL: https://api.npr.org//
   tags: Recommendations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-recommendations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-search-recommendations-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-recommendations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/listening-v2-search-recommendations-get-postman.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
