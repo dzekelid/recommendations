@@ -1,0 +1,280 @@
+{
+	"name": "Streadata.io API Gallery - Recommendations",
+	"description": "This is a repository of recommendations APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/recommendations.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://recommendations.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "NPR",
+			"x-api-slug": "npr",
+			"description": "NPR delivers breaking national and world news. Also top stories from business, politics, health, science, technology, music, arts and culture. Subscribe to podcasts and RSS feeds.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg",
+			"humanURL": "http://npr.org",
+			"baseURL": "https://api.npr.org//",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Etsy",
+			"x-api-slug": "etsy",
+			"description": "Find handmade, vintage, and unique goods that express who you are.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg",
+			"humanURL": "http://www.etsy.com/",
+			"baseURL": "https://openapi.etsy.com//v2/private/",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/etsy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Zemanta",
+			"x-api-slug": "zemanta",
+			"description": "Zemanta is an omni-channel programmatic native DSP for media agencies to automate paid content promotion across 25+ programmatic networks & exchanges.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/539-zemanta.jpg",
+			"humanURL": "http://www.zemanta.com/",
+			"baseURL": "https:///",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/zemanta/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rovi",
+			"x-api-slug": "rovi",
+			"description": "TiVo is a pioneer in DVRs | Buy TiVo BOLT, Roamio, and Mini | Free shipping | Integrate all streaming apps into TV | Start your free trial today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/648-rovi.jpg",
+			"humanURL": "http://developer.rovicorp.com/",
+			"baseURL": "https:///",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/rovi/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "YellowBot",
+			"x-api-slug": "yellowbot",
+			"description": "Yellow Pages with ratings and reviews",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/977-yellowbot.jpg",
+			"humanURL": "http://www.yellowbot.com/about/about.html",
+			"baseURL": "https:///",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/yellowbot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Jinni",
+			"x-api-slug": "jinni",
+			"description": "For the past seven years the company has been providing a robust discovery service to pay TV and OTT providers and also offersa targeted advertising taste-based audience buying solution for entertainment brands.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1081-jinni.jpg",
+			"humanURL": "http://www.jinni.com/api.html",
+			"baseURL": "https:///",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/jinni/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "QUOTE.fm",
+			"x-api-slug": "quote-fm",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1123-quote-fm.jpg",
+			"humanURL": "http://quote.fm",
+			"baseURL": "https:///",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/quote-fm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TheBeerSpot",
+			"x-api-slug": "thebeerspot",
+			"description": "A distinctive website with a focus on all aspects of beer. Our goal is to provide a fun atmosphere for all things related to beer and provide you with the tools to know more about beer. This is a place where enthusiasts of all kinds, homebrewers, the a...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1486-thebeerspot.jpg",
+			"humanURL": "http://www.thebeerspot.com/api",
+			"baseURL": "https:///",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/thebeerspot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rotten Tomatoes",
+			"x-api-slug": "rotten-tomatoes",
+			"description": "Rotten Tomatoes is a website launched in August 1998 devoted to film reviews and news; it is widely known as a film review aggregator. Coverage now includes TV content as well. The name derives from the practice of audiences throwing rotten tomatoes when disapproving of a poor stage performance. The company was created by Senh Duong and since January 2010 has been owned by Flixster, which itself was acquired in 2011 by Warner Bros.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png",
+			"humanURL": "http://rottentomatoes.com",
+			"baseURL": "https://api.rottentomatoes.com//api/public/v1.0",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/rotten-tomatoes/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Books",
+			"x-api-slug": "google-books",
+			"description": "Google Books is our effort to make book content more discoverable on the Web. Using the Google Books API, your application can perform full-text searches and retrieve book information, viewability and eBook availability. You can also manage your personal bookshelves.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-03-16 at 4.28.26 PM.png",
+			"humanURL": "https://developers.google.com/books/",
+			"baseURL": "://www.googleapis.com//books/v1",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/google-books/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Advisor",
+			"x-api-slug": "azure-advisor",
+			"description": "Azure Advisor is a personalized recommendation engine that helps you follow Azure best practices. It analyzes your Azure resource configuration and usage telemetry, then provides recommendations that can reduce costs and improve the performance, security, and reliability of your applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/improve-what-matters.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/advisor/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Entertainment Express",
+			"x-api-slug": "entertainment-express",
+			"description": "Internet Video Archive (IVA) is a leading entertainment data company providing metadata, images and trailers/clips, for movie and TV content. With the launch of its award-winning Entertainment Express APIs, clients can easily access everything they need to create engaging content discovery experiences. By using Entertainment Express, clients can also connect to other services like movie showtimes and ticketing, content recommendations, content availability and TV channel line-ups. With over a million titles, episodes and over 150,000 videos available, IVA makes it easy for developers to integrate all the services they need at a very affordable price.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png",
+			"humanURL": "https://www.internetvideoarchive.com/",
+			"baseURL": "https://ee.iva-api.com//",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/entertainment-express/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "uebermaps",
+			"x-api-slug": "uebermaps",
+			"description": "uebermaps is a platform for everyone to create and share maps with your favorite spots. uebermaps are interactive maps that enable people to collect interesting places, collaborate, upload photos and share your public or private maps with your friends and family. If you use uebermaps for your mapping community, as a tour guide for friends or as your unlimited geo storage is up to you.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png",
+			"humanURL": "http://uebermaps.com",
+			"baseURL": "https://uebermaps.com//api/v2",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/uebermaps/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Recommendations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Recommendations",
+	"include": [
+		{
+			"name": "NPR",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/npr/apis.yaml"
+		},
+		{
+			"name": "Etsy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/etsy/apis.yaml"
+		},
+		{
+			"name": "Zemanta",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/zemanta/apis.yaml"
+		},
+		{
+			"name": "Rovi",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/rovi/apis.yaml"
+		},
+		{
+			"name": "YellowBot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/yellowbot/apis.yaml"
+		},
+		{
+			"name": "Jinni",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/jinni/apis.yaml"
+		},
+		{
+			"name": "QUOTE.fm",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/quote-fm/apis.yaml"
+		},
+		{
+			"name": "TheBeerSpot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/thebeerspot/apis.yaml"
+		},
+		{
+			"name": "Rotten Tomatoes",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/rotten-tomatoes/apis.yaml"
+		},
+		{
+			"name": "Google Books",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/google-books/apis.yaml"
+		},
+		{
+			"name": "Azure Advisor",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/azure-advisor/apis.yaml"
+		},
+		{
+			"name": "Entertainment Express",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/entertainment-express/apis.yaml"
+		},
+		{
+			"name": "uebermaps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/uebermaps/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recommendations/master/_listings/gig--crowd/apis.yaml"
+		}
+	]
+}
